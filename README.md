@@ -1,14 +1,16 @@
 # Hosted-angular-CRUD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
-and hiosted on heroku 
+and hosted on heroku 
 
-Launch serviceWolf with node server.js in /serviceWOlf
-Launch imageAPI with npm start file upload express
-Launch dashboard with ng serve @root
+    Launch serviceWolf with node server.js in /serviceWOlf
+    Launch imageAPI with npm start file upload express
+    Launch dashboard with ng serve @root
 
     go to https://stark-castle-98559.herokuapp.com/add > for add a wolf and add a sound too
     go to https://stark-castle-98559.herokuapp.com/  > see the wolfs
-    go to https://stark-castle-98559.herokuapp.com/  > to see landing page
+    go to https://stark-castle-98559.herokuapp.com/home  > to see landing page
+
+Click on the FAB button at the bottom right to see the menu !
 
 # OTHER
 
