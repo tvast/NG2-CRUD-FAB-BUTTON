@@ -6,9 +6,9 @@ Launch serviceWolf with node server.js in /serviceWOlf
 Launch imageAPI with npm start file upload express
 Launch dashboard with ng serve @root
 
-go to https://dry-fortress-19473.herokuapp.com/add > for add a wolf and add a sound too
-go to https://dry-fortress-19473.herokuapp.com/ > see the wolf
-go to https://dry-fortress-19473.herokuapp.com/home > to see landing page
+    go to https://stark-castle-98559.herokuapp.com/add > for add a wolf and add a sound too
+    go to https://stark-castle-98559.herokuapp.com/  > see the wolfs
+    go to https://stark-castle-98559.herokuapp.com/  > to see landing page
 
 # OTHER
 
