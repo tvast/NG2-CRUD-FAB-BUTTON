@@ -6,7 +6,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
-import {CdkTableModule} from '@angular/cdk';
+// import {CdkTableModule} from '@angular/cdk';
 
 import { WolfsoundService } from './wolfsound.service';
 import { ImageService } from './image.service';
@@ -17,6 +17,7 @@ import { FormComponent } from './form/form.component';
 
 import { FileSelectDirective, FileDropDirective } from 'ng2-file-upload';
 import { DetailViewComponent } from './detail-view/detail-view.component';
+import { ImageListComponent } from './image-list/image-list.component';
 
 @NgModule({
 
@@ -43,7 +44,12 @@ import { DetailViewComponent } from './detail-view/detail-view.component';
         path: 'add',
         component:  FormComponent
       },
-      { path: 'wolf/:id', component: DetailViewComponent }
+      { 
+        path: 'wolf/:id', component: DetailViewComponent 
+      },
+      { 
+        path: 'image', component: ImageListComponent 
+      } 
     ])
   ],
   declarations: [
@@ -52,7 +58,7 @@ import { DetailViewComponent } from './detail-view/detail-view.component';
     WolfsoundHomeComponent,
     FormComponent,
     FileSelectDirective, 
-    FileDropDirective, DetailViewComponent,
+    FileDropDirective, DetailViewComponent, ImageListComponent,
   ],
   providers: [WolfsoundService, ImageService],
   bootstrap: [AppComponent],

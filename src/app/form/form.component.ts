@@ -6,8 +6,9 @@ import { Wolf} from './../wolf';
 import { FileUploader, FileUploadModule } from 'ng2-file-upload';
 import { FileSelectDirective, FileDropDirective } from 'ng2-file-upload/ng2-file-upload';
 
-//define the constant url we would be uploading to.
-const URL = 'http://localhost:3000/profile';
+//define the constant url we would be uploading to. https://warm-atoll-97916.herokuapp.com/
+// const URL = 'http://localhost:3000/profile';
+const URL = 'https://warm-atoll-97916.herokuapp.com/profile';
 
 @Component({
   selector: 'app-form',
