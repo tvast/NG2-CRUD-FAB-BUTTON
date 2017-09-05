@@ -2,11 +2,14 @@
   image-list works!
 </p>
 
-<div *ngFor="let i of image" class="col s12 m4">
-
-{{image.originalname}}
-{{image.loki}}
+<div *ngFor="let image of image" class="col s12 m4">
+	{{image.originalname}}
+{{image.$loki}}
 <img src="https://warm-atoll-97916.herokuapp.com/images/{{image.loki}}">
+
+</div>
+
+
 <!-- {{}}
 {{}}
 {{}} -->

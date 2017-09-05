@@ -21,8 +21,6 @@ export class ImageListComponent implements OnInit {
 
   ngOnInit() {
   	this.imageService.getAllImages().subscribe(image => this.image = image);
-
-  	console.log(this.image)
   }
 
 }

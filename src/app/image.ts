@@ -7,5 +7,5 @@ export class Image {
     filename: string;
     path: string;
     size: string;
-    loki : number;
+    $loki : number;
 }
