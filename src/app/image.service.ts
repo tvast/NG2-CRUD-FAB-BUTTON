@@ -12,7 +12,7 @@ import { Image} from './image';
 export class ImageService {
 
 	private headers = new Headers({'Content-Type': 'application/json'});
-	private imageUrl = 'https://warm-atoll-97916.herokuapp.com/images';  // URL to web api https://secret-sea-39644.herokuapp.com/api/bears
+	private imageUrl = 'https://fileuploader2702.herokuapp.com/images';  // URL to web api https://secret-sea-39644.herokuapp.com/api/bears
 
 	constructor(
 		private http: Http
