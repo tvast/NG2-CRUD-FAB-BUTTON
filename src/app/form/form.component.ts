@@ -21,9 +21,12 @@ export class FormComponent implements OnInit {
   active = true;
   wolf = new Wolf();
   submitted = false;
+  _loki ={id:String};
+
   // public uploader:FileUploader = new FileUploader({url: URL});
   public hasBaseDropZoneOver:boolean = false;
   public hasAnotherDropZoneOver:boolean = false;
+
 
   constructor(
     private router: Router,
@@ -44,7 +47,13 @@ export class FormComponent implements OnInit {
        //able to deal with the server response.
        this.uploader.onCompleteItem = (item:any, response:any, status:any, headers:any) => {
             console.log("ImageUpload:uploaded:", item, status, response);
+            
+            this._loki = response
+            alert(this._loki)
+            console.log(this._loki.id)
+
         };
+
     }
 
 
